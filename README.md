@@ -16,7 +16,7 @@ All responses are printed as formatted JSON.
 ## Requirements
 
 - Python 3.8+
-- `requests` package
+- `requests` package if you don't already have it...
 - Azure DevOps Personal Access Token (PAT) with work item permissions
 
 Install dependency:
@@ -109,6 +109,9 @@ Examples:
 - `System.AssignedTo=Jane Doe`
 - `System.State=Active`
 - `Microsoft.VSTS.Common.Priority=1`
+- `System.LinkTypes.Hierarchy-Reverse=4321` # this is the parent id link. Hierarchy-Forward is child link.
+- `System.AreaPath=Products\Linux\Relocation`
+- `System.IterationPath=Products\2026`
 
 If a field is missing `=`, the script exits with an error.
 
