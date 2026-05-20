@@ -36,7 +36,7 @@ Every command requires:
 Example shared values:
 
 ```bash
---org my-org --project MyProject --pat <YOUR_PAT>
+python --org my-org --project MyProject --pat <YOUR_PAT>
 ```
 
 ## Command Usage
